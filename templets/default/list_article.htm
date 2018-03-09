@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>{dede:field.typename/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description/}" />
+</head>
+<link href="{dede:global.cfg_templets_skin/}/css/2016.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/touchslide.1.1.js"></script>
+
+<body>
+{dede:include filename="header.htm"/}
+<div class="mw yc">
+  <div class="art_banner" id="art_banner">
+    <div class="bd">
+      <ul>
+        <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/hy-banner320.jpg' /></a></li>
+        <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/sjbanner727.jpg' /></a></li>
+        <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/sjbanner_yb.jpg' /></a></li>
+        <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/1704261131556229.jpg' /></a></li>
+        <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/mianzhen-banner320.jpg' /></a></li>
+      </ul>
+    </div>
+    <div class="hd">
+      <ul>
+      </ul>
+    </div>
+  </div>
+  <script>
+    TouchSlide({
+      slideCell: "#art_banner",
+      titCell: ".hd ul",
+      mainCell: ".bd ul",
+      effect: "left",
+      autoPage: true,
+      autoPlay: true
+    });
+  </script>
+  <div class="mbxdh">
+    <div class="mbxdhl"> <a href="javascript:history.go(-1)"><i class="icon iconfont icon-zuojiantou"></i></a> <a href="/"><i class="icon iconfont icon-fangzi1"></i></a> {dede:field.position/} </div>
+    <div class="mbxdhr">
+      <div class="mbxdhr2"> <a href="tel:02864235120"> <span>24小时免费热线</span> <span>028-64235120</span> </a> </div>
+      <i class="icon iconfont icon-dianhua2"></i> </div>
+  </div>
+  <div class="ddz_zz">
+    <ul>
+      {dede:list pagesize="10"}
+      <li><i class="icon iconfont icon-jiahao-"></i><a href="[field:arcurl/]" title="[field:title/]">[field:title/]<span>[field:click/]次阅读</span></a></li>
+      {/dede:list}
+    </ul>
+  </div>
+  <div class="page"> {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/} </div>
+</div>
+<script src="{dede:global.cfg_templets_skin/}/js/laydate.js"></script>
+<div class="art_114"> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/art_114.jpg" alt=""></a> </div>
+<script src="{dede:global.cfg_templets_skin/}/js/pinglun.js"></script>
+<div class="foot_nav"> <a href="/"><i class="icon iconfont icon-fangzi"></i>网站首页</a> <a href=""><i class="icon iconfont icon-xile"></i>一路童行</a> <a href="tel:02864235120"><i class="icon iconfont icon-dianhua1"></i>免费电话</a> <a href=""><i class="icon iconfont icon-iconfontdialog"></i>在线咨询</a> </div>
+<div class="h20"></div>
+<div class="cl"></div>
+<div class="x_dt">
+  <div class="x_dtr">
+    <div class="mzsj"><i class="icon iconfont icon-shijian"></i>
+      <div class="mzsjk">
+        <p>门诊时间（无假日医院）<span>08:30-18:00</span></p>
+      </div>
+    </div>
+    <div class="mzsj"><i class="icon iconfont icon-icon"></i>
+      <div class="mzsjk">
+        <p>医院地址：<span>成都市武侯区红牌楼北街13号</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fangzi:before { content: "\e605"; }
+
+.icon-icon:before { content: "\e601"; }
+
+.icon-qq:before { content: "\e648"; }
+
+.icon-shijian:before { content: "\e615"; }
+
+.icon-dianhua:before { content: "\e612"; }
+
+.icon-yuyue:before { content: "\e7c4"; }
+
+.icon-sousuo:before { content: "\e6d7"; }
+
+.icon-zuozhao:before { content: "\e621"; }
+
+.icon-gongsixuanze:before { content: "\e60b"; }
+
+.icon-icon5:before { content: "\e604"; }
+
+.icon-xuexi:before { content: "\e606"; }
+
+.icon-rili:before { content: "\e60a"; }
+
+.icon-xile:before { content: "\e636"; }
+
+.icon-xin:before { content: "\e60f"; }
+
+.icon-55240:before { content: "\e608"; }
+
+.icon-xinlv:before { content: "\e664"; }
+
+.icon-wenben-copy:before { content: "\e60e"; }
+
+.icon-yiliaoxiang:before { content: "\e622"; }
+
+.icon-right:before { content: "\e602"; }
+
+.icon-tingzhenqi-copy:before { content: "\e6c2"; }
+
+.icon-shenjingneike:before { content: "\e6b9"; }
+
+.icon-chongdong:before { content: "\e66d"; }
+
+.icon-zixun:before { content: "\e66e"; }
+
+.icon-babykunao:before { content: "\e61b"; }
+
+.icon-weiji:before { content: "\e600"; }
+
+.icon-iconfontdialog:before { content: "\e644"; }
+
+.icon-pinxing:before { content: "\e766"; }
+
+.icon-xunhuan:before { content: "\e701"; }
+
+.icon-yisheng:before { content: "\e61c"; }
+
+.icon-shaonao:before { content: "\e66a"; }
+
+.icon-jizhongzhuyili:before { content: "\e611"; }
+
+.icon-huli:before { content: "\e607"; }
+
+.icon-sanheng:before { content: "\e675"; }
+
+.icon-biaodan:before { content: "\e60d"; }
+
+.icon-lidaoxiang:before { content: "\e64d"; }
+
+.icon-zuqiu:before { content: "\e61f"; }
+
+.icon-shuji:before { content: "\e67e"; }
+
+.icon-hospital-on:before { content: "\e603"; }
+
+.icon-yuyuying:before { content: "\e76f"; }
+
+.icon-falv:before { content: "\e613"; }
+
+.icon-he:before { content: "\e609"; }
+

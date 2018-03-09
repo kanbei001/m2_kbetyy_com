@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>{dede:field.typename/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description/}" />
+</head>
+<link href="{dede:global.cfg_templets_skin/}/css/2016.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/touchslide.1.1.js"></script>
+
+<body>
+{dede:include filename="header.htm"/}
+<div class="mw">
+  <div class="dang"><i class="fa fa-home fa-lg"></i>当前位置：{dede:field.position/}</div>
+</div>
+<div class="keszj" id="keszj">
+  <div class="hd">
+    <ol class="keshi">
+      {dede:channelartlist typeid="7,14,21,28,35,36,37,38"}
+      <li><a>{dede:field.typename/}</a></li>
+      {/dede:channelartlist}
+      <div class="cl"></div>
+    </ol>
+  </div>
+  <div class="bd">
+    <ul class="zhuanjia">
+      <li>
+        {dede:list pagesize="10"}
+        <div class="zjlmlb"> <a href="[field:arcurl/]"><img src="[field:litpic/]" /></a>
+          <p class="pnm1"> <font class="name">[field:title/]</font> | <font>[field:shorttitle/]</font> </p>
+          <p>[field:infos/]</p>
+          <div> <a href="tel:028-64235120" rel="nofollow"><i class="fa fa-phone"></i><span>电话咨询</span></a> <a href="" rel="nofollow"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>在线咨询</span></a> <a href="[field:arcurl/]" title="[field:title/]"><i class="fa fa-plus-square"></i><span>医生简介</span></a> </div>
+        </div>
+        {/dede:list}
+      </li>
+    </ul>
+  </div>
+</div>
+<!--<script type="text/javascript">
+  TouchSlide({
+    slideCell: "#keszj",
+    titCell: ".hd ol li",
+    mainCell: ".bd ul",
+    effect: "leftLoop",
+  });
+</script>-->
+<div class="cl"></div>
+<div class="x_yyytx3"> <a href="tel:028-64235120"><b>028-64235120</b>
+  <div><span>一键拨打</span><em>ONE TOUCH DIAL</em></div>
+  </a> </div>
+<div class="x_dt">
+  <div class="x_dtl"><img src="{dede:global.cfg_templets_skin/}/images/x_dt.jpg" alt=""></div>
+  <div class="x_dtr">
+    <p><i class="fa fa-history fa-lg"></i>门诊时间：08:30-18:00</p>
+    <p><i class="fa fa-building-o fa-lg"></i>成都市武侯区红牌楼北街13号1栋3层1号</p>
+  </div>
+</div>
+<div class="x_foots">
+  <p><a href="{dede:type typeid="1"}[field:typeurl/]{/dede:type}">医院简介</a> | <a href="{dede:type typeid="3"}[field:typeurl/]{/dede:type}">医师团队</a> | <a href="" rel="nofollow">在线挂号</a></p>
+  <p>24小时咨询预约热线：<a href="tel:028-64235120">028-64235120</a> <br>
+    蜀ICP备15022251号 </p>
+</div>
+<div class="x_ggg"></div>
+</body>
+</html>

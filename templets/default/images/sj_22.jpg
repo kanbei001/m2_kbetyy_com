@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>成都西南儿童医院官网(Childrens Hospital)-成都专业诊疗多动症、抽动症、自闭症、矮小症、遗尿症、性早熟、语言发育 、弱智低下、增高</title>
+    <meta name="description" content="成都西南儿童医院融合现代国内外儿科前沿医学模式,主治儿童小儿神经科、发育行为、内分泌疾病,拥有强大医师阵容,立足成都,热线:028-64235120" />
+    <meta name="keywords" content="成都西南儿童医院,成都西南儿童医院,成都多动症医院,成都抽动症医院,成都诊疗自闭症" />
+</head>
+<link href="/css/2018.css" rel="stylesheet" type="text/css" />
+<script src="/js/TouchSlide.1.1.js"></script>
+
+<body>
+    <div class="head">
+        <div class="home">
+            <a href="/"><img src="/images/x_sy1.png" alt=""></a>
+        </div>
+        <div class="logo">
+            <a href="/"><img src="/images/headerbgs2.png" alt=""></a>
+        </div>
+        <div class="tel">
+            <a href="tel:028-64235120"><img src="/images/x_sy3.png" alt=""></a>
+        </div>
+    </div>
+    <div class="sy_banner" id="sy_banner">
+        <div class="hd">
+            <ul>
+            </ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="javascript:openZoosUrl()"><img src="/uploads/banner/1704061413445834.jpg" /></a>
+                </li><li>
+                    <a href="/yyjj/news/2121.html"><img src="/uploads/banner/1704261131556229.jpg" /></a>
+                </li><li>
+                    <a href="javascript:openZoosUrl()"><img src="/images/sjgq-banner.jpg" /></a>
+                </li><li>
+                    <a href="/yyjj/gongyi/1700.html"><img src="/images/sjbanner727.jpg" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+    TouchSlide({
+        slideCell: "#sy_banner",
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "leftLoop",
+        autoPage: true,
+        autoPlay: false
+    });
+    </script>
+    <div class="sousuo">
+        <div class="sousuo2" onclick="openZoosUrl()"> <img src="/images/xsy_ss.png" alt="">
+            <input type="text" placeholder="搜索医生、科室、疾病">
+        </div>
+        <a href="tel:02864235120"><img src="/images/xsy_sj.png" alt=""></a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="/yyjj/212.html"><img src="/images/xsy_gs.png" alt="">
+                    <p>医院概况</p>
+                </a>
+            </li>
+            <li>
+                <a href="/zlbz/"><img src="/images/xsy_ks.png" alt="">
+                    <p>特色专科</p>
+                </a>
+            </li>
+            <li>
+                <a href="/zjtd/"><img src="/images/xsy_doc.png" alt="">
+                    <p>医师团队</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:openZoosUrl()"><img src="/images/xsy_yy.png" alt="">
+                    <p>预约挂号</p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="/yyjj/news/"><img src="/images/xsy_news.png" alt="">
+                    <p>新闻中心</p>
+                </a>
+            </li>
+            <li>
+                <a href="/yyjj/dzjs/"><img src="/images/xsy_dzwj.png" alt="">
+                    <p>党政建设</p>
+                </a>
+            </li>
+            <li>
+                <a href="/kfgs/"><img src="/images/xsy_al.png" alt="">
+                    <p>康复案例</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:openZoosUrl()"><img src="/images/xsy_jkzc.png" alt="">
+                    <p>关爱基金</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hh"></div>
+    <div class="tszk">
+        <div class="sy_title">
+            <h2>特色专科</h2>
+        </div>
+        <div class="xsy_bz">
+            <div class="xsy_bzl">
+                <a href="/fyx/">
+                    <img src="/images/xsy_szfy.png" alt="发育行为科">
+                    <p>发育行为科</p>
+                </a>
+            </div>
+            <div class="xsy_bzr">
+                <ul>
+                    <li><a href="/fyx/ddz/">多动症</a></li>
+                    <li><a href="/fyx/zbz/">自闭症</a></li>
+                    <li><a href="/fyx/cdz/">抽动症</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/nfm/ynz/">遗尿症</a></li>
+                    <li><a href="/nfm/yyza/">语言障碍</a></li>
+                    <li><a href="/fyx/xxkn/">学习困难</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="xsy_bz">
+            <div class="xsy_bzl">
+                <a href="/sjj/">
+                    <img src="/images/xsy_sjk.png" alt="小儿神经科">
+                    <p>小儿神经科</p>
+                </a>
+            </div>
+            <div class="xsy_bzr">
+                <ul>
+                    <li><a href="/sjj/zldx/">智力低下</a></li>
+                    <li><a href="/sjj/nxth/">脑瘫</a></li>
+                    <li><a href="/sjj/dx/">癫痫</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/sjj/fyszch/">发育迟缓</a></li>
+                    <li><a href="/sjj/nyhyz/">脑炎后遗症</a></li>
+                    <li><a href="/sjj/qita/">其他</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="xsy_bz">
+            <div class="xsy_bzl">
+                <a href="/nfm/">
+                    <img src="/images/xsy_nfm.png" alt="">
+                    <p>内分泌科</p>
+                </a>
+            </div>
+            <div class="xsy_bzr">
+                <ul>
+                    <li><a href="http://zg.xnekyy.com/">矮小症</a></li>
+                    <li><a href="http://zg.xnekyy.com/">增高</a></li>
+                    <li><a href="/nfm/xzs/">性早熟(男)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/nfm/fpz/">肥胖症</a></li>
+                    <li><a href="/nfm/xzs/">性早熟(女)</a></li>
+                    <li><a href="javascript:openZoosUrl()">更多+</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="xsy_bz">
+            <div class="xsy_bzl">
+                <a href="http://mmnk.xnekyy.cn/">
+                    <img src="/images/xsy_szq.png" class="ico_xewk" alt="">
+                    <p>小儿外科</p>
+                </a>
+            </div>
+            <div class="xsy_bzr">
+                <ul>
+                    <li><a href="http://mmnk.xnekyy.cn/bpbj/">包皮包茎</a></li>
+                    <li><a href="http://mmnk.xnekyy.cn/yg/">隐睾</a></li>
+                    <li><a href="http://mmnk.xnekyy.cn/ndxl/">尿道下裂</a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://mmnk.xnekyy.cn/zlxm/ynyj/">隐匿阴茎</a></li>
+                    <li><a href="http://mmnk.xnekyy.cn/sq/">疝气</a></li>
+                    <li><a href="http://mmnk.xnekyy.cn/qmjy/">鞘膜积液</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="xsy_bz2">
+            <ul>
+                <li>
+                    <a href="/zyk/"><img src="/images/xsy_zy.png" alt=""><span>中医科</span></a>
+                </li>
+                <li>
+                    <a href="http://mkf.xnekyy.cn/"><img src="/images/xsy_kf.png" alt=""><span>康复科</span></a>
+                </li>
+                <li>
+                    <a href="/zt/etyy/"><img src="/images/xsy_ek.png" alt=""><span>普儿科</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cl"></div>
+    <div class="hh"></div>
+    <div class="cl"></div>
+    <div class="sy_title">
+        <h2>医师团队</h2>
+    </div>
+    <div class="tuandui" id="tuandui">
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="/zjtd/fyxk/1016.html"><img src="/images/xsy_mq.png" alt="">
+                        <p>孟青</p>
+                        <span>发育行为科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/fyxk/903.html"><img src="/images/xsy_yzm.png" alt="">
+                        <p>颜泽明</p>
+                        <span>发育行为科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/fyxk/972.html"><img src="/images/xsy_lrf.png" alt="">
+                        <p>罗荣峰</p>
+                        <span>发育行为科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1378.html"><img src="/images/xsy_yp.png" alt="">
+                        <p>阴平</p>
+                        <span>发育行为科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/fyxk/1162.html"><img src="/images/xsy_pyh.png" alt="">
+                        <p>彭幼辉</p>
+                        <span>发育行为科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/xnhzzj/589.html"><img src="/images/xsy_fst.png" alt="">
+                        <p>付师亭</p>
+                        <span>神经内科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2122.html"><img src="/images/xsy_xqj.png" alt="">
+                        <p>邢秋君</p>
+                        <span>神经内科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1366.html"><img src="/images/xsy_dyf.png" alt="">
+                        <p>杜玉芳</p>
+                        <span>神经内科</span></a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/zjtd/nfmk/588.html"><img src="/images/xsy_xyh.png" alt="">
+                        <p>熊友华</p>
+                        <span>内分泌科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2025.html"><img src="/images/xsy_zsz.png" alt="">
+                        <p>张思智</p>
+                        <span>内分泌科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2097.html"><img src="/images/xsy_zsc.png" alt="">
+                        <p>周绍春</p>
+                        <span>内分泌科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2135.html"><img src="/images/xsy_lmy.png" alt="">
+                        <p>兰明玉</p>
+                        <span>内分泌科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2128.html"><img src="/images/xsy_jam.png" alt="">
+                        <p>蒋爱民</p>
+                        <span>外科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2129.html"><img src="/images/xsy_ll.png" alt="">
+                        <p>李灵</p>
+                        <span>外科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2130.html"><img src="/images/xsy_lsd.png" alt="">
+                        <p>刘士东</p>
+                        <span>外科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/2151.html"><img src="/images/xsy_xh.png" alt="">
+                        <p>向慧</p>
+                        <span>外科</span></a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/zjtd/zyk/584.html"><img src="/images/xsy_czl.png" alt="">
+                        <p>曹正良</p>
+                        <span>中医科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1719.html"><img src="/images/xsy_tgb.png" alt="">
+                        <p>唐国兵</p>
+                        <span>中医科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/kfk/1549.html"><img src="/images/xsy_xl.png" alt="">
+                        <p>徐磊</p>
+                        <span>康复科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1969.html"><img src="/images/xsy_ym.png" alt="">
+                        <p>杨梅</p>
+                        <span>康复科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1273.html"><img src="/images/xsy_mh.png" alt="">
+                        <p>马豪</p>
+                        <span>康复科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1537.html"><img src="/images/xsy_xln.png" alt="">
+                        <p>熊莉娜</p>
+                        <span>普儿科</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1377.html"><img src="/images/xsy_ly.png" alt="">
+                        <p>李勇</p>
+                        <span>住院部</span></a>
+                </li>
+                <li>
+                    <a href="/zjtd/1277.html"><img src="/images/xsy_zy2.png" alt="">
+                        <p>张英</p>
+                        <span>住院部</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="hd">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+    TouchSlide({
+        slideCell: "#tuandui",
+        titCell: ".hd ul",
+        mainCell: ".bd",
+        effect: "leftLoop",
+        autoPage: true,
+        autoPlay: false
+    });
+    </script>
+    <div class="cl"></div>
+    <div class="hh"></div>
+    <div class="sy_title">
+        <h2>西南影像</h2>
+    </div>
+    <div class="xnyx">
+        <div class="jsbk_xin">
+            <div class="shipin">
+                <a href="http://shipin.xnekyy.cn/dsjz/90.html"><img src="http://shipin.xnekyy.cn/uploads/allimg/170516/1-1F5161045420-L.png" alt="SCTV-4:不做“小雨人”"><i><img src="/images/bfxan.png" alt="播放"></i></a>
+                <p>SCTV-4:不做“小雨人”</p>
+            </div>
+        </div>
+        <div class="jsbk_xin">
+            <div class="shipin">
+                <a href="http://shipin.xnekyy.cn/dsjz/89.html"><img src="http://shipin.xnekyy.cn/uploads/allimg/170516/1-1F5161045060-L.png" alt="SCTV-4:智力低下，问题在哪?"><i><img src="/images/bfxan.png" alt="播放"></i></a>
+                <p>SCTV-4:智力低下，问题在哪?</p>
+            </div>
+        </div>
+        <div class="jsbk_xin">
+            <div class="shipin">
+                <a href="http://shipin.xnekyy.cn/dsjz/88.html"><img src="http://shipin.xnekyy.cn/uploads/allimg/170516/1-1F5161043520-L.png" alt="SCTV-4：孩子“熊”过头，要小心"><i><img src="/images/bfxan.png" alt="播放"></i></a>
+                <p>SCTV-4：孩子“熊”过头，要小心</p>
+            </div>
+        </div>
+        <div class="jsbk_xin">
+            <div class="shipin">
+                <a href="http://shipin.xnekyy.cn/dsjz/39.html"><img src="http://4g.xnekyy.cn/uploads/allimg/170420/3-1F420100T10-L.jpg" alt="SCTV-4：不做笨小孩"><i><img src="/images/bfxan.png" alt="播放"></i></a>
+                <p>SCTV-4：不做笨小孩</p>
+            </div>
+        </div>
+    </div>
+    <div class="cl"></div>
+    <div class="hh"></div>
+    <div class="sy_title2">
+        <h2>一路童行</h2>
+    </div>
+    <div class="sy_gyx">
+        <a href="javascript:openZoosUrl()"><img src="/images/xsy_gyx.jpg" alt=""></a>
+        <a href="tel:02864235120"><img src="/images/xsy_bddh.gif" class="xsy_bddh" alt=""></a>
+    </div>
+    <div class="head21"><a href="/yyjj/212.html">医院简介</a><a href="/wenda/">有问必答</a><a href="javascript:openZoosUrl()">公益援助</a><a href="#top" style="background:none;">回到顶部</a></div>
+    <div class="x_dt">
+        <div class="x_dtr">
+            <div class="mzsj"><img src="/images/xsy_sjt.png" alt="">
+                <p>门诊时间（无假日医院）<span>08:30-17:30</span></p>
+            </div>
+            <div class="mzsj"><img src="/images/xsy_dz.png" alt="">
+                <p>医院地址：<span>成都市武侯区红牌楼北街13号</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="/swt/swt.js"></script>
+</body>
+
+</html>

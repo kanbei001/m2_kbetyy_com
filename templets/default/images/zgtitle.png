@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>404错误页面.</title>
+<style>
+	*{margin: 0;padding: 0;list-style:none;}
+	body{min-width:320px;max-width:640px;margin:0 auto;}
+	a{color:#fff;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0); }
+	#header img{display:block;width: 100%;}
+	
+	.r ul{margin-top:2%;padding-bottom:2%;}
+	.r img{width:100%;}
+	.r li{float:left;width:46%;margin:2%;padding:2% 0;border-radius:5px;text-align:center;}
+	.r li a{display:block;}
+	.a1{background:#cc913d;}
+	.a2{background:#f17a70;}
+	.a3{background:#45B4BB;}
+	.a4{background:#3d85cc;}
+	.a5{background:#a83dcc;}
+	.a6{background:#cc6d3d;}
+	.a7{background:#fc5a59;}
+	.a8{background:#ff95be;}
+
+	p{margin:10px 10px;padding-bottom:3px;}
+	iframe{width:100%;height:480px;border:none;}
+</style>
+
+</head>
+<body>
+<div id="header"><a href="/"><img src="/public/images/zgheadbg.jpg"/></a></div>
+<div class="r">
+	<img src="/public/images/yyjj.jpg"><br/>
+	<ul>
+		<li class="a1"><a href="/yyjj">医院简介</a></li>
+		<li class="a2"><a href="/zgzj">儿童增高专家</a></li>
+		<li class="a3"><a href="/zgjs/886.html">儿童增高技术</a></li>
+		<li class="a4"><a href="/axyy">儿童矮小原因</a></li>
+		<li class="a5"><a href="/sgpc">儿童身高评测</a></li>
+		<li class="a6"><a href="/zgal">儿童长高案例</a></li>
+		<li class="a7"><a href="/swt">在线咨询</a></li>
+		<li class="a8"><a href="/zt/map">查看地图</a></li>
+	</ul>
+	<p style="clear:both;"></p>
+</div>
+<p style="border-bottom:1px dashed #45b4bb;"><strong style="color:#45b4bb;font-size: 16px; border-left: 6px solid #45b4bb; padding-left: 6px;">亲爱的用户,您好！</strong></p>
+<p style="text-indent: 2em;">西南儿童医院提醒您，您访问的页面不存在！请通过上面的导航，返回网站，开始酣畅淋漓的浏览。</p>
+</body>
+</html>

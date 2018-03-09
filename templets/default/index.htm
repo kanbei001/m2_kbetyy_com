@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+</head>
+<link href="{dede:global.cfg_templets_skin/}/css/2018.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/touchslide.1.1.js"></script>
+
+<body>
+<div class="head">
+  <div class="home"> <a href="/"><img src="{dede:global.cfg_templets_skin/}/images/x_sy1.png" alt=""></a> </div>
+  <div class="logo"> <a href="/"><img src="{dede:global.cfg_templets_skin/}/images/headerbgs2.png" alt=""></a> </div>
+  <div class="tel"> <a href="tel:028-64235120"><img src="{dede:global.cfg_templets_skin/}/images/x_sy3.png" alt=""></a> </div>
+</div>
+<div class='sy_banner' id='sy_banner'>
+  <div class='hd'>
+    <ul>
+    </ul>
+  </div>
+  <div class='bd'>
+    <ul>
+      <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/hy-banner320.jpg' /></a></li>
+      <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/sjbanner727.jpg' /></a></li>
+      <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/sjbanner_yb.jpg' /></a></li>
+      <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/1704261131556229.jpg' /></a></li>
+      <li><a href=""><img src='{dede:global.cfg_templets_skin/}/images/mianzhen-banner320.jpg' /></a></li>
+    </ul>
+  </div>
+</div>
+<script>
+TouchSlide({
+    slideCell: "#sy_banner",
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "leftLoop",
+    autoPage: true,
+    autoPlay: true
+});
+</script>
+<div class="sousuo">
+  <div class="sousuo2" > <img src="{dede:global.cfg_templets_skin/}/images/xsy_ss.png" alt="">
+    <input type="text" placeholder="搜索医生、科室、疾病">
+  </div>
+  <a href="tel:02864235120"><img src="{dede:global.cfg_templets_skin/}/images/xsy_sj.png" alt=""></a> </div>
+<nav>
+  <ul>
+    <li> <a href="{dede:type typeid="1"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_gs.png" alt="">
+      <p>医院概况</p>
+      </a> </li>
+    <li> <a href="{dede:type typeid="2"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_ks.png" alt="">
+      <p>特色专科</p>
+      </a> </li>
+    <li> <a href="{dede:type typeid="3"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_doc.png" alt="">
+      <p>医师团队</p>
+      </a> </li>
+    <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_yy.png" alt="">
+      <p>预约挂号</p>
+      </a> </li>
+  </ul>
+  <ul>
+    <li> <a href="{dede:type typeid="4"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_news.png" alt="">
+      <p>新闻中心</p>
+      </a> </li>
+    <li> <a href="{dede:type typeid="5"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_dzwj.png" alt="">
+      <p>党政建设</p>
+      </a> </li>
+    <li> <a href="{dede:type typeid="6"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_al.png" alt="">
+      <p>康复案例</p>
+      </a> </li>
+    <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_jkzc.png" alt="">
+      <p>关爱基金</p>
+      </a> </li>
+  </ul>
+</nav>
+<div class="hh"></div>
+<div class="tszk">
+  <div class="sy_title">
+    <h2>特色专科</h2>
+  </div>
+  <div class="xsy_bz">
+    <div class="xsy_bzl"> <a href="/fyx/"> <img src="{dede:global.cfg_templets_skin/}/images/xsy_szfy.png" alt="发育行为科">
+      <p>发育行为科</p>
+      </a> </div>
+    <div class="xsy_bzr">
+      <ul>
+        {dede:channelartlist typeid="7" type="son"}
+        <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+        {dede:global name="itemindex" runphp="yes"}if(@me==3)@me='
+      </ul>
+      <ul>
+        ';else @me='';{/dede:global}
+        {/dede:channelartlist}
+      </ul>
+    </div>
+  </div>
+  <div class="xsy_bz">
+    <div class="xsy_bzl"> <a href="/sjj/"> <img src="{dede:global.cfg_templets_skin/}/images/xsy_sjk.png" alt="小儿神经科">
+      <p>小儿神经科</p>
+      </a> </div>
+    <div class="xsy_bzr">
+      <ul>
+        {dede:channelartlist typeid="14" type="son"}
+        <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+        {dede:global name="itemindex" runphp="yes"}if(@me==3)@me='
+      </ul>
+      <ul>
+        ';else @me='';{/dede:global}
+        {/dede:channelartlist}
+      </ul>
+    </div>
+  </div>
+  <div class="xsy_bz">
+    <div class="xsy_bzl"> <a href="/nfm/"> <img src="{dede:global.cfg_templets_skin/}/images/xsy_nfm.png" alt="">
+      <p>内分泌科</p>
+      </a> </div>
+    <div class="xsy_bzr">
+      <ul>
+        {dede:channelartlist typeid="21" type="son"}
+        <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+        {dede:global name="itemindex" runphp="yes"}if(@me==3)@me='
+      </ul>
+      <ul>
+        ';else @me='';{/dede:global}
+        {/dede:channelartlist}
+      </ul>
+    </div>
+  </div>
+  <div class="xsy_bz">
+    <div class="xsy_bzl"> <a href="http://mmnk.xnekyy.cn/"> <img src="{dede:global.cfg_templets_skin/}/images/xsy_szq.png" class="ico_xewk" alt="">
+      <p>小儿外科</p>
+      </a> </div>
+    <div class="xsy_bzr">
+      <ul>
+        {dede:channelartlist typeid="28" type="son"}
+        <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+        {dede:global name="itemindex" runphp="yes"}if(@me==3)@me='
+      </ul>
+      <ul>
+        ';else @me='';{/dede:global}
+        {/dede:channelartlist}
+      </ul>
+    </div>
+  </div>
+  <div class="xsy_bz2">
+    <ul>
+      <li> <a href="{dede:type typeid="35"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_zy.png" alt=""><span>中医科</span></a> </li>
+      <li> <a href="{dede:type typeid="36"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_kf.png" alt=""><span>康复科</span></a> </li>
+    </ul>
+    <ul>
+      <li> <a href="{dede:type typeid="37"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_ek.png" alt=""><span>普儿科</span></a> </li>
+      <li> <a href="{dede:type typeid="38"}[field:typeurl/]{/dede:type}"><img src="{dede:global.cfg_templets_skin/}/images/xsy_yk.png" alt=""><span>眼科</span></a> </li>
+    </ul>
+  </div>
+</div>
+<div class="cl"></div>
+<div class="hh"></div>
+<div class="cl"></div>
+<div class="sy_title">
+  <h2>医师团队</h2>
+</div>
+<div class="tuandui" id="tuandui">
+  <div class="bd">
+    <ul>
+      <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_mq.png" alt="">
+        <p>孟青</p>
+        <span>发育行为科</span></a> </li>
+    </ul>
+    <ul>
+      <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_xyh.png" alt="">
+        <p>熊友华</p>
+        <span>内分泌科</span></a> </li>
+    </ul>
+    <ul>
+      <li> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_czl.png" alt="">
+        <p>曹正良</p>
+        <span>中医科</span></a> </li>
+    </ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+    TouchSlide({
+        slideCell: "#tuandui",
+        titCell: ".hd ul",
+        mainCell: ".bd",
+        effect: "leftLoop",
+        autoPage: true,
+        autoPlay: false
+    });
+    </script>
+<div class="cl"></div>
+<div class="hh"></div>
+<div class="sy_title">
+  <h2>西南影像</h2>
+</div>
+<div class="xnyx">
+  <div class="jsbk_xin">
+    <div class="shipin"> <a href="http://shipin.xnekyy.cn/dsjz/90.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1f5161045420-l.png" alt="SCTV-4:不做"小雨人""><i><img src="{dede:global.cfg_templets_skin/}/images/bfxan.png" alt="播放"></i></a>
+      <p>SCTV-4:不做"小雨人"</p>
+    </div>
+  </div>
+  <div class="jsbk_xin">
+    <div class="shipin"> <a href="http://shipin.xnekyy.cn/dsjz/89.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1f5161045060-l.png" alt="SCTV-4:智力低下，问题在哪?"><i><img src="{dede:global.cfg_templets_skin/}/images/bfxan.png" alt="播放"></i></a>
+      <p>SCTV-4:智力低下，问题在哪?</p>
+    </div>
+  </div>
+  <div class="jsbk_xin">
+    <div class="shipin"> <a href="http://shipin.xnekyy.cn/dsjz/88.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1f5161043520-l.png" alt="SCTV-4：孩子"熊"过头，要小心"><i><img src="{dede:global.cfg_templets_skin/}/images/bfxan.png" alt="播放"></i></a>
+      <p>SCTV-4：孩子"熊"过头，要小心</p>
+    </div>
+  </div>
+  <div class="jsbk_xin">
+    <div class="shipin"> <a href="http://shipin.xnekyy.cn/dsjz/39.html"><img src="{dede:global.cfg_templets_skin/}/images/3-1f420100t10-l.jpg" alt="SCTV-4：不做笨小孩"><i><img src="{dede:global.cfg_templets_skin/}/images/bfxan.png" alt="播放"></i></a>
+      <p>SCTV-4：不做笨小孩</p>
+    </div>
+  </div>
+</div>
+<div class="cl"></div>
+<div class="hh"></div>
+<div class="sy_title2">
+  <h2>一路童行</h2>
+</div>
+<div class="sy_gyx"> <a href=""><img src="{dede:global.cfg_templets_skin/}/images/xsy_gyx.jpg" alt=""></a> <a href="http://ssl.gongyi.qq.com/m/weixin/detail_yqj.htm?id=28872&did=1220056201201709054000019896&ADTAG=&et=fx"><img src="{dede:global.cfg_templets_skin/}/images/index_gongyi.jpg" alt="" style="width: 100%;margin: 10px auto;"></a> <a href="tel:02864235120"><img src="{dede:global.cfg_templets_skin/}/images/xsy_bddh.gif" class="xsy_bddh" alt=""></a> </div>
+<div class="head21"><a href="/zt/yyjj/">医院简介</a><a href="/wenda/">有问必答</a><a href="">公益援助</a><a href="#top" style="background:none;">回到顶部</a></div>
+<div class="x_dt">
+  <div class="x_dtr">
+    <div class="mzsj"><img src="{dede:global.cfg_templets_skin/}/images/xsy_sjt.png" alt="">
+      <p>门诊时间（无假日医院）<span>08:30-18:00</span></p>
+    </div>
+    <div class="mzsj"><img src="{dede:global.cfg_templets_skin/}/images/xsy_dz.png" alt="">
+      <p>医院地址：<span>成都市武侯区红牌楼北街13号</span></p>
+    </div>
+  </div>
+</div>
+<div class="x_ggg"></div>
+</body>
+</html>
